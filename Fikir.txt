@@ -1,0 +1,45 @@
+1. SORUN; Satıcının bilerek ve isteyerek yanlış ve kusurlu ürün göndermesi. Aynı zamanda siparişleri karıştırma sorunu.
+
+	Bu sorun satıcının satış platformundan ceza almamak için başvurduğu bir kandırmA yöntemidir
+ve Alıcı için vakit kaybına sebep olmaktadır.
+
+ÇÖZÜM; Kurduğumuz platforma Satıcının tarihi ve saati doğrulaybileceğimiz fotoğraf veya video yüklemesi istenebilir. Bu satıcının 
+bilerek yanlış ve kusurlu ürün yüklemesinin önüne geçerbilir.
+
+BLOKCHAIN TEKNOLOJİSİ; Bu fotoğraf veya videonun blokchain teknolojisini kullanarak yüklenmesi halinde 
+tarih ve saat bilgisinden emin olabilir miyiz?
+
+	NASIL BLOKCHAIN KULLANILABİLİR; 
+
+								ARAŞTIR(HUZEYFE)
+
+2. SORUN; Kargoyu getiren kişinin alıcının evde olmasına rağmen evde yokumuş muamelesi yapması 
+ve kargoyu teslim etmeden geri götürmesi.
+
+	Bu sorun siparişin gecikmesine aynı zamanda alıcının zaman kaybına uğrmasına satıcının ise 
+sipariş ulaşmadığı için parasını alamamasına sebep olabiliyor.
+
+ÇÖZÜM; 
+	ÖNERİ; Kargoyu teslim edecek kişi doğrulama için kapının önünde bulunduğuna dair 
+konum bilgisini paylaştığı, kapnın önünde olduğuna dair fotoğraf veya video paylaştığı 
+ve orada ne kadar zaman geçirdiğine dair bir zaman doğrulaması yapabilir. 
+ve bu doğrulamya kargo şirketi ve kullanıcı panel üzerinde görebilir.
+
+	BLOKCHAIN TEKNOLOJİSİ; Fotoğraf doğrulamasını, konum bilgisi paylaşmını ve zaman bilgisini
+bu teknoloji ile gerçekleştirebilir mi? 
+	
+	ÖNERİ; 
+		
+Nasıl BLOKCHAIN KULLANILABİLİR 
+							
+								ARAŞTIR
+
+
+
+3.SORUN;
+
+
+
+4. SORUN; Satış platformunun çok fazla reklam göstermesi sonucu kullanıcıyı bıktırması, 
+aynı zamanda kullanıcının baktığı ürünlerin sonradan karşısına çıkması ve bunun rahatsız edici olması
+	
