@@ -1,0 +1,63 @@
+.sectionCustomer{
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.imageCargo{
+    margin-left: auto;
+    margin-right: 100px;
+    background: #f3efe6;
+    width: 350px;
+    height: 500px;
+    border-radius: 10%;
+}
+.imageSeller{
+    position: absolute;
+    left: 100px;
+    bottom: 60px;
+    width: 350px;
+    height: 500px;
+    background: #f3efe6;
+    border-radius: 10%;
+
+}
+.imageCargo img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10%;
+}
+
+.imageSeller img{
+    margin-top: 10px;
+    height: 250px;
+    width: 350px;
+    border-radius: 10%;
+}
+
+h2 {
+    color: #dd794a;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+    button {
+        color: white;
+        background: #dd794a;
+        margin-top: 60px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        font-family: "Poppins", sans-serif;
+        border-radius: 9px;
+        border: none;
+        width: 90%;
+        padding: 12px 0;
+        transition: 150ms ease-out;
+      }
+      
+      button:hover {
+        background: #d66029;
+      }
+      

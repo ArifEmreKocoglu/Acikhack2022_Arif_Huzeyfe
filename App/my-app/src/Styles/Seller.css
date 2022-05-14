@@ -1,21 +1,41 @@
 .sectionSeller{
-    background-image: url("../img/3.jpg");
+    background-image: url("../img/7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 750px;
 }
-section h2{
-    color: var(--second-color);
+.seller_transparan{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 650px;
+    height: 550px;
+    background-color: rgba(63, 63, 63, 0.11);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.titleContainer{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+
+}
+.title {
+    color: #dd794a;
+    font-size: 50px;
+    margin: 0;
 }
 .image{
     margin-left: auto;
     margin-right: auto;
     width: 600px;
-    height: 300px;
-    background-color: grey;
+    height: 250px;
+    background-color: rgba(63, 63, 63, 0.11);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
     border-radius: 10%;
-    z-index: -10;
 }
 .image img{
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -30,12 +50,13 @@ section h2{
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #fff;
-    background: var(--second-color);
+    color: white;
+    background: #dd794a;
     padding: 0.75rem 2.5rem;
     font-weight: var(--font-semi);
     border-radius: 2rem;
     font-size: 1.2rem;
+
     /* filter:  drop-shadow(0px 5px 20px var(--first-color)); */
 }
 
@@ -45,7 +66,7 @@ section h2{
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    width: 20%;
+    width: 40%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
     padding: 1rem;

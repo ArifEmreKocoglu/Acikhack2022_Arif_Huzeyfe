@@ -1,4 +1,7 @@
 header{
+    background-image: url("../img/5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
     position: fixed;
     top: 0;
@@ -50,7 +53,7 @@ ul li{
 
 ul li a{
     position: relative;
-    color: #fff;
+    color: #dd794a;
     font-family: var(--header-font);
     padding: 5px 10px;
 }
