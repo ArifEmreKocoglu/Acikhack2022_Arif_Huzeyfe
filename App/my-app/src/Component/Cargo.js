@@ -28,21 +28,26 @@ function Cargo({imagesCargo, updateImagesCargo}){
 
         return (
             <section className="section sectionCargo" id="cargo">
+                <h1 className="sectionTitle">Cargo</h1>
                 <div className="list">
                     <ul>
                         <li>İsim</li>
+                        <div class="lineCargo"></div>
                         <li>Telefon</li>
+                        <div class="lineCargo"></div>
                         <li>Adres</li>
+                        <div class="lineCargo"></div>
                         <li>Konum</li>
+                        <div class="lineCargo"></div>
                     </ul>
                 </div>
                 <div className="imagesCargo">
                     <form>
                         <div className="image">
-                                <img src={imagesCargo[imagesCargo.length - 1]} alt="soneklenencargoresim"/>
+                                <img src={imagesCargo[imagesCargo.length - 1]} alt=""/>
                                 <FontAwesomeIcon icon="fa_cloud_arrow_up" className="cloudIcon" />
                         </div>
-                        <input className="uploadFoto button" type="file" onChange={onChange}></input>
+                        <input className="uploadFoto" type="file" onChange={onChange}></input>
                     </form>
                 </div>
             </section>

@@ -9,7 +9,7 @@ function Seller({ images, updateImages }) {
 
     async function addImages(imgFileUrl) {
         let imgElement = imgFileUrl
-        updateImages([...images, imgElement]);
+            updateImages([...images, imgElement]);
     }
 
     async function onChange(e) {
@@ -31,20 +31,23 @@ function Seller({ images, updateImages }) {
     return (
         <section className="section sectionSeller" id="seller">
             {/* <img src={ backgroundImage } alt="" id="backgroundImage"></img> */}
+            <h1 class="sectionTitle"> Satıcı </h1>
             <div className="titleContainer">
                 <h2 className="title">Fotoğraf ve</h2>
                 <h2 className="title">Takip Numarasını</h2>
                 <h2 className="title">Giriniz.</h2>
+                <div class="line"></div>
             </div>
+            
             <div className="seller_transparan">
                 <form>
                     <div className="image">
-                        <img src={images[images.length - 1]} alt="soneklenenresim" />
-                        <FontAwesomeIcon icon="fa_cloud_arrow_up" className="cloudIcon" />
+                        <img src={images[images.length - 1]} alt="" />
+                        <FontAwesomeIcon icon="fa-solid fa-cloud-arrow-up" className="cloudIcon" />
                     </div>
-                    <input className="uploadFoto button" type="file" onChange={onChange}></input>
+                    <input className="uploadFoto uploadButton" type="file" onChange={onChange}></input>
                     <input type="textarea" className="trackingNumber" placeholder="lütfen takip numarasını giriniz"></input>
-                    <button className="uploadButton button"> Kaydet </button>
+                    <button className="button"> Kaydet </button>
                 </form>
             </div>
         </section>

@@ -1,24 +1,24 @@
 .sectionCustomer{
-    background-image: url("../img/5.jpg");
+    /* background-image: url("../img/4.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 600px;
 }
 .imageCargo{
     margin-left: auto;
     margin-right: 100px;
-    background: #f3efe6;
+    /* background: #f3efe6; */
     width: 350px;
     height: 500px;
     border-radius: 10%;
 }
 .imageSeller{
-    position: absolute;
+    position: relative;
     left: 100px;
-    bottom: 60px;
+    bottom: 520px;
     width: 350px;
     height: 500px;
-    background: #f3efe6;
+    /* background: #f3efe6; */
     border-radius: 10%;
 
 }
@@ -36,7 +36,8 @@
 }
 
 h2 {
-    color: #dd794a;
+    /* color: #dd794a; */
+    color: #7C78DC;
     text-align: center;
     font-size: 36px;
     margin: 0;
@@ -44,7 +45,8 @@ h2 {
 
     button {
         color: white;
-        background: #dd794a;
+        /* background: #dd794a; */
+        background-color: #7C78DC;
         margin-top: 60px;
         margin-left: 10px;
         cursor: pointer;

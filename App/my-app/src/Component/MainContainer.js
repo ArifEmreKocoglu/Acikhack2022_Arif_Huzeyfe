@@ -11,7 +11,10 @@ import { useState } from "react";
 function MainContainer (){
     
     const [imagesCargo, updateImagesCargo] = useState([]);
-    const [images, updateImages] = useState([]);    
+    const [images, updateImages] = useState([]);  
+    if(images.length<= 0){
+        images[images.length - 1] = null;
+    }  
         return (
             <section>
                <Seller updateImages= {updateImages} images = {images}/>

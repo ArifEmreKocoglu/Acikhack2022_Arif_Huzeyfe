@@ -1,7 +1,7 @@
 .sectionSeller{
-    background-image: url("../img/7.jpg");
+    /* background-image: url("../img/4.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 750px;
 }
 .seller_transparan{
@@ -11,67 +11,84 @@
     margin-top: 10px;
     width: 650px;
     height: 550px;
-    background-color: rgba(63, 63, 63, 0.11);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background-color: #7C78DC F;
+    box-shadow: #7C78DC ;
 }
 .titleContainer{
     position: absolute;
     top: 250px;
-    left: 15px;
+    left: 30px;
 
 }
+
 .title {
-    color: #dd794a;
+    color: #7C78DC ;
     font-size: 50px;
     margin: 0;
 }
+.line{
+    background-color: #7C78DC;
+    width: 410px;
+    height: 6px;
+}
 .image{
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 500px;
     height: 250px;
-    background-color: rgba(63, 63, 63, 0.11);
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    /* background-color: #7C78DC ;
+    box-shadow: #7C78DC ; */
     border-radius: 10%;
+    border: #7C78DC ;
+    border-style: solid;
+    border-width: 2px;
 }
 .image img{
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    width: 600px;
+    width: 500px;
     max-height: 100%;
     border-radius: 10%;
 }
 .button{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    position: relative;
+    left: 500px;
+    bottom: 120px;
     text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: white;
-    background: #dd794a;
-    padding: 0.75rem 2.5rem;
+    background: #7C78DC ;
+    width: 30%;
     font-weight: var(--font-semi);
     border-radius: 2rem;
     font-size: 1.2rem;
 
     /* filter:  drop-shadow(0px 5px 20px var(--first-color)); */
 }
+.uploadButton{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    color: white;
+    background: #7C78DC ;
+    padding: 0.75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+}
 
 .trackingNumber{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: auto;
+    position: relative;
+    left: 360px;
+    bottom: 150px;
     margin-left: auto;
-    width: 40%;
+    width: 45%;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi);
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1.5px solid var(--second-color);
     outline: none;
 }
 
