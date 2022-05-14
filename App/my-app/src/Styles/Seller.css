@@ -1,0 +1,63 @@
+/* .sectionSeller{
+    background-image: url("../img/3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+section h2{
+    color: var(--second-color);
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 10%;
+    z-index: -10;
+}
+.image img{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 600px;
+    max-height: 100%;
+    border-radius: 10%;
+}
+.button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: var(--second-color);
+    padding: 0.75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    /* filter:  drop-shadow(0px 5px 20px var(--first-color)); */
+}
+
+.trackingNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid var(--second-color);
+    outline: none;
+}
+
+.cloudIcon{
+background-color: black;
+}
+/* .button:hover{
+    transform: scaleX(1.2);
+    transition: transfrom 0.3s ease-in-out;
+} */
