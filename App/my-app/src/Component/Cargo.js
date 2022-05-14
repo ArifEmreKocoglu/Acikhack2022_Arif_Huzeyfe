@@ -4,9 +4,9 @@ import '../Styles/Cargo.css'
 export default class Cargo extends Component {
     render() {
         return (
-            <div>
+            <section>
                 
-            </div>
+            </section>
         )
     }
 }

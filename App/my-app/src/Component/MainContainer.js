@@ -3,10 +3,11 @@ import '../Styles/MainContainer.css'
 import Cargo from './Cargo'
 import Customer from './Customer'
 import Seller from './Seller'
+import { useState } from "react";
+import { create } from "ipfs-http-client";
 
 
-export default class MainContainer extends Component {
-    render() {
+function MainContainer (){
         return (
             
             <div>
@@ -15,7 +16,6 @@ export default class MainContainer extends Component {
                <Customer/>
             </div>
         )
-    }
 }
 
-export { MainContainer }
+export default MainContainer

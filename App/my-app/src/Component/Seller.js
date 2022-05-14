@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { create } from "ipfs-http-client";
-import backgroundImage from '../img/3.jpg'
+// import backgroundImage from '../img/3.jpg'
 import '../Styles/Seller.css'
 
 const client = create("https://ipfs.infura.io:5001/api/v0");
@@ -34,7 +34,6 @@ function Seller(){
             <section className="section sectionSeller">
                 {/* <img src={ backgroundImage } alt="" id="backgroundImage"></img> */}
                 <form>
-                    <h2>Fotoğraf yükle</h2>
                     <div className="image">
                         {images}
                         <FontAwesomeIcon icon="fa_cloud_arrow_up" className="cloudIcon" />
