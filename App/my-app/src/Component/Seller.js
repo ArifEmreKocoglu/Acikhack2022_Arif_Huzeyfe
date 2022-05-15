@@ -1,5 +1,6 @@
 // import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faSolid, faCloudArrowUp} from '@fortawesome/free-solid-svg-icons'
 import { create } from "ipfs-http-client";
 // import backgroundImage from '../img/3.jpg'
 import '../Styles/Seller.css'
@@ -36,14 +37,14 @@ function Seller({ images, updateImages }) {
                 <h2 className="title">Fotoğraf ve</h2>
                 <h2 className="title">Takip Numarasını</h2>
                 <h2 className="title">Giriniz.</h2>
-                <div class="line"></div>
+                <div className="line"></div>
             </div>
             
             <div className="seller_transparan">
                 <form>
                     <div className="image">
                         <img src={images[images.length - 1]} alt="" />
-                        <FontAwesomeIcon icon="fa-solid fa-cloud-arrow-up" className="cloudIcon" />
+                        {/* <FontAwesomeIcon icon="faSolid faCloudArrowUp" className="cloudIcon" /> */}
                     </div>
                     <input className="uploadFoto uploadButton" type="file" onChange={onChange}></input>
                     <input type="textarea" className="trackingNumber" placeholder="lütfen takip numarasını giriniz"></input>

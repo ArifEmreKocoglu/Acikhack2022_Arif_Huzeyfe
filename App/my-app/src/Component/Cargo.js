@@ -1,5 +1,5 @@
 import '../Styles/Cargo.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { create } from "ipfs-http-client";
 import '../Styles/Cargo.css'
 
@@ -32,20 +32,20 @@ function Cargo({imagesCargo, updateImagesCargo}){
                 <div className="list">
                     <ul>
                         <li>İsim</li>
-                        <div class="lineCargo"></div>
+                        <div className="lineCargo"></div>
                         <li>Telefon</li>
-                        <div class="lineCargo"></div>
+                        <div className="lineCargo"></div>
                         <li>Adres</li>
-                        <div class="lineCargo"></div>
+                        <div className="lineCargo"></div>
                         <li>Konum</li>
-                        <div class="lineCargo"></div>
+                        <div className="lineCargo"></div>
                     </ul>
                 </div>
                 <div className="imagesCargo">
                     <form>
                         <div className="image">
                                 <img src={imagesCargo[imagesCargo.length - 1]} alt=""/>
-                                <FontAwesomeIcon icon="fa_cloud_arrow_up" className="cloudIcon" />
+                                {/* <FontAwesomeIcon icon="fa_cloud_arrow_up" className="cloudIcon" /> */}
                         </div>
                         <input className="uploadFoto" type="file" onChange={onChange}></input>
                     </form>

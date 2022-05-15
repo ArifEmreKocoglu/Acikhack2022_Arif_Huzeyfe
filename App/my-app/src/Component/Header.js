@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {MenuList} from "./MenuList";
-import { BiMenuAltRight } from 'react-icons/bi';
+// import { BiMenuAltRight } from 'react-icons/bi';
 // import profilFoto from '../img/player-1.png'
 import '../Styles/Header.css'
 
@@ -18,9 +18,9 @@ import '../Styles/Header.css'
             }
             allLi.forEach( (n) => n.addEventListener('click', linkActions))
         }, [])
-        const toggleActive = () =>  {
-            setmenuActive(!isMenuActive);
-        }
+        // const toggleActive = () =>  {
+        //     setmenuActive(!isMenuActive);
+        // }
         return (
                 <header>
             <nav className="nav bd_grid">
@@ -35,9 +35,9 @@ import '../Styles/Header.css'
                         ))}
                 </ul>
             </nav>
-            <i className="toggleMenu" onClick = { toggleActive } >
+            {/* <i className="toggleMenu" onClick = { toggleActive } >
                     <BiMenuAltRight></BiMenuAltRight>
-                </i>
+                </i> */}
         </header>
         )
     }
